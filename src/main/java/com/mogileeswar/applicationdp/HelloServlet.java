@@ -21,5 +21,6 @@ public class HelloServlet extends HttpServlet {
 
         response.getWriter().println("<h1>Hello from Applicationdp!</h1>");
         response.getWriter().println("<p>Running inside Tomcat Docker.</p>");
+        response.getWriter().println("<p>I am from the Backend.</p>");
     }
 }
